@@ -16,7 +16,7 @@
             "imageUrl": "bitwardenrs/server:1.18.0-alpine"
           },
           "envVariables": {
-            "WEBSOCKET_ENABLED": "true",
+            "WEBSOCKET_ENABLED": "false",
             "SIGNUPS_ALLOWED": "true"
           },
           "volumeMounts": {
