@@ -10,13 +10,13 @@
           "serviceName": "bitwarden",
           "servicePath": "/",
           "uploadType": "image",
-          "containerPort": 80,
+          "containerPort": 80,3012
           "imageInfo": {
             "imageUrl": "bitwardenrs/server:1.18.0-alpine"
           },
           "envVariables": {
-            "WEBSOCKET_ENABLED": "false",
-            "SIGNUPS_ALLOWED": "true"
+            "WEBSOCKET_ENABLED": "true",
+            "SIGNUPS_ALLOWED": "false"
           },
           "volumeMounts": {
             "/data": "bitwarden-cfs"
